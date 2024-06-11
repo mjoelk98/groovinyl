@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philipp Wolf - Persönliche Webseite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .bio, .record-collection, .contact {
+            background: #fff;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 5px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .record {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+        }
+        .record img {
+            max-width: 200px;
+            display: block;
+            margin: 0 auto;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Philipp Johannes Wolf</h1>
+</header>
+
+<div class="container">
+    <section class="bio">
+        <h2>Über mich</h2>
+        <p>Hallo! Ich bin Philipp Wolf, humorvoll, empathisch und offen. Ich liebe Basketball, Sport im Allgemeinen, Reisen, Musik und Zeit mit Freunden zu verbringen.</p>
+        <h3>Persönliche Daten:</h3>
+        <p>
+            Name: Philipp Johannes Wolf<br>
+            Anschrift: Bahnhofstr. 33, 67157 Wachenheim<br>
+            Telefon: +49 157/55148507<br>
+            E-Mail: phiwo98@web.de<br>
+            Geburtsdatum/-ort: 05.04.1998 in Bad Dürkheim
+        </p>
+        <h3>Schulausbildung:</h3>
+        <p>
+            07/2015 – 03/2018: Oberstufe an der Integrierten Gesamtschule Deidesheim<br>
+            07/2008 – 06/2015: Werner-Heisenberg-Gymnasium Bad Dürkheim<br>
+            07/2004 – 06/2008: Grundschule Deidesheim
+        </p>
+        <h3>Praxiserfahrung:</h3>
+        <p>
+            01/2024 – heute: Teil des Promotion Teams der Fontys Venlo<br>
+            09/2023 – heute: Consultant bei JPO in Venlo (Teil meines Studiums)<br>
+            05/2023 – 08/2023: Social Media-Manager bei ALWA Marketing Stuttgart (Teilzeit & Remote)<br>
+            08/2018 – 07/2019: Freiwilliges Soziales Jahr Haidwald-Grundschule Maxdorf<br>
+            04/2018 – 06/2018: Honorartätigkeit Haidwald-Grundschule Maxdorf
+        </p>
+        <h3>Berufsausbildung:</h3>
+        <p>
+            08/2022 – 07/2026: Marketing Management Studium an der Fontys International Business School in Venlo (Niederlande)<br>
+            08/2019 – 07/2022: Ausbildung zum Industriekaufmann bei Superior Industries Europe AG in Bad Dürkheim
+        </p>
+        <h3>Kenntnisse und Fähigkeiten:</h3>
+        <p>
+            Sprachkenntnisse: Englisch (fließend), Französisch (Gute Kenntnisse), Niederländisch (Grundkenntnisse)<br>
+            Computerkenntnisse: Gute MS-Office-Kenntnisse (Excel, Word, PowerPoint, Teams, Outlook), gute Microsoft Dynamics AX-Kenntnisse, gute Kenntnisse im Lagerführungssystem<br>
+            Weitere Kenntnisse: Führerschein Klasse B, Patenamt für Schüler der gymnasialen Unterstufe, Trainerlizenz Breitensport Klasse C
+        </p>
+        <h3>Persönliche Interessen:</h3>
+        <p>Basketball, Fitnessstudio, Reisen</p>
+    </section>
+
+    <section class="record-collection">
+        <h2>Meine Schallplattensammlung</h2>
+        <div class="record">
+            <h3>Albumtitel 1</h3>
+            <img src="url-zum-bild-der-platte-1.jpg" alt="Albumtitel 1">
+            <p>Zustand: Sehr gut<br>Preis: 20€</p>
+        </div>
+        <div class="record">
+            <h3>Albumtitel 2</h3>
+            <img src="url-zum-bild-der-platte-2.jpg" alt="Albumtitel 2">
+            <p>Zustand: Gut<br>Preis: 15€</p>
+        </div>
+        <!-- Weitere Schallplatten hier hinzufügen -->
+    </section>
+
+    <section class="contact">
+        <h2>Kontakt</h2>
+        <p>Für weitere Informationen oder Anfragen können Sie mich gerne kontaktieren:</p>
+        <p>
+            Telefon: +49 157/55148507<br>
+            E-Mail: phiwo98@web.de
+        </p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Philipp Johannes Wolf. Alle Rechte vorbehalten.</p>
+</footer>
+
+</body>
+</html>
